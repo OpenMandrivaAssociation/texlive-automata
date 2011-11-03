@@ -1,3 +1,9 @@
+# revision 19717
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/automata
+# catalog-date 2010-09-13 12:42:36 +0200
+# catalog-license lppl
+# catalog-version 0.3
 Name:		texlive-automata
 Version:	0.3
 Release:	1
@@ -44,6 +50,7 @@ nodes and the styles of edges, may be adjusted.
 %doc %{_texmfdistdir}/doc/metapost/automata/example.mp
 %doc %{_texmfdistdir}/doc/metapost/automata/example.pdf
 %doc %{_texmfdistdir}/doc/metapost/automata/example.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ nodes and the styles of edges, may be adjusted.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
