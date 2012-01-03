@@ -6,7 +6,7 @@
 # catalog-version 0.3
 Name:		texlive-automata
 Version:	0.3
-Release:	1
+Release:	2
 Summary:	Finite state machines, graphs and trees in MetaPost
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/automata
