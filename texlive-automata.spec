@@ -51,3 +51,18 @@ nodes and the styles of edges, may be adjusted.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3-2
++ Revision: 749439
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.3-1
++ Revision: 717873
+- texlive-automata
+- texlive-automata
+- texlive-automata
+- texlive-automata
+- texlive-automata
+
