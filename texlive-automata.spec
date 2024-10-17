@@ -3,7 +3,7 @@ Version:	19717
 Release:	2
 Summary:	Finite state machines, graphs and trees in MetaPost
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/automata
+URL:		https://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/automata
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/automata.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/automata.doc.r%{version}.tar.xz
